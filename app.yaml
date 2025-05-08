@@ -1,0 +1,9 @@
+command: ["uvicorn", "app:app"]
+
+env:
+  - name: 'DATABRICKS_REFERENCE_CATALOG'
+    value: '_data'
+  - name: 'DATABRICKS_REFERENCE_SCHEMA'
+    value: 'tpch'
+  - name: 'DATABRICKS_WAREHOUSE_PATH'
+    value: '/sql/1.0/warehouses/<yourpathhere>'

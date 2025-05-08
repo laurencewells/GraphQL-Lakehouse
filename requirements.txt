@@ -1,0 +1,8 @@
+databricks==0.2
+databricks-sdk==0.50.0
+databricks-sql-connector[pyarrow]==4.0.3
+fastapi[standard]==0.115.12
+fastapi-cli==0.0.7
+strawberry-graphql[fastapi]==0.266.0
+databricks-sqlalchemy==2.0.6
+strawberry-sqlalchemy-mapper==0.6.0
